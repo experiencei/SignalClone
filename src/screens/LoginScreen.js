@@ -6,10 +6,12 @@ import { StatusBar } from 'expo-status-bar';
 const LoginScreen = () => {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
+    const signIn = () => {
 
+    }
 
     return (
-        <View>
+        <View style={styles.container}>
              <StatusBar style="light" />
              <Image 
                source={{
@@ -32,7 +34,7 @@ const LoginScreen = () => {
                 onChangeText={(text) => setPassword(text)}/>
                 
              </View>
-             <Button containerStyle={styles.button} title="Login" />
+             <Button containerStyle={styles.button} onPress={signIn} title="Login" />
              <Button containerStyle={styles.button} type="outline" title="Register" />
         </View>
     )
