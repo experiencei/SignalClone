@@ -6,7 +6,9 @@ const RegisterScreen = ({ navigation}) => {
     return (
         <KeyboardAvoidingView>
             <StatusBar style="light" />
-            
+            <Text h3 style={{marginTop: 50}}>
+                Create a Signal account
+            </Text>
             <View style={styles.inputContainer}>
 
             </View>
