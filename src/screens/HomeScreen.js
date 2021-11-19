@@ -24,7 +24,7 @@ const HomeScreen = ({ navigation}) => {
         </TouchableOpacity>
         </View>
         ),
-        headerRight : () => {
+        headerRight : () => (
             <View style={{
                 flexDirection : "row",
                 justifyContent : "center",
@@ -37,9 +37,9 @@ const HomeScreen = ({ navigation}) => {
                    <AntDesigner name="pencil" size={24} color="black"/>
                 </TouchableOpacity>
             </View>
-        }
+        )
     });
-  }, [input])
+  }, [navigation])
 
     return (
         <SafeAreaView>
