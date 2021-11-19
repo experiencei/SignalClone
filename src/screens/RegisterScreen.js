@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useLayoutEffect, useState } from 'react'
 import { Button , Input , Image , Text } from 'react-native-elements';
 import { StyleSheet,  View, KeyboardAvoidingView } from 'react-native';
 import { StatusBar } from "expo-status-bar";
@@ -10,8 +10,14 @@ const RegisterScreen = ({ navigation}) => {
     const [password, setPassword] = useState('');
     const [imageUrl, setImageUrl] = useState('');
 
-    const register = () => {
+    useLayoutEffect(() => {
+      navigation.setOptions({
+          headerBackTitle : "Back to Login"
+      })
+    } , [navigation])
 
+    const register = () => {
+    
     }
 
     return (
