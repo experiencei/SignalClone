@@ -9,7 +9,7 @@ const RegisterScreen = ({ navigation}) => {
     const [imageUrl, setImageUrl] = useState('');
 
     const register = () => {
-        
+
     }
 
     return (
@@ -48,6 +48,12 @@ const RegisterScreen = ({ navigation}) => {
                     onSubmitEditing={register}
                 />
             </View>
+
+            <Button 
+              containerStyle={styles.button}
+            raised  
+            title="Register" 
+            onPress={register} />
         </KeyboardAvoidingView>
     )
 }
