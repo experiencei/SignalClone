@@ -3,9 +3,14 @@ import { StyleSheet, Text, View } from 'react-native'
 import { ListItem , Avatar } from 'react-native-elements'
 const CustomListItem = () => {
     return (
-        <View>
-            <Text></Text>
-        </View>
+        <ListItem>
+            <Avatar 
+                rounded
+                source={{
+                    uri : "https://cencup.com/wp-content/uploads/2019/07/avatar-placeholder.png"
+                }}
+            />
+        </ListItem>
     )
 }
 
