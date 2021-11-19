@@ -1,13 +1,13 @@
-import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import React from 'react';
+import { Button , Input , Image } from 'react-native-elements';
+import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
 
 const LoginScreen = () => {
     return (
         <View>
-            <Text>
-
-                
-            </Text>
+             <StatusBar style="light" />
+           
         </View>
     )
 }
