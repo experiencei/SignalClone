@@ -32,6 +32,7 @@ const LoginScreen = () => {
                 onChangeText={(text) => setPassword(text)}/>
                 
              </View>
+             <Button title="Login" />
         </View>
     )
 }
