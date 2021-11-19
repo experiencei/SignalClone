@@ -1,14 +1,17 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
-
-const RegisterScreen = () => {
+import { StyleSheet, Text, View, KeyboardAvoidingView } from 'react-native';
+import { StatusBar } from "expo-status-bar"
+const RegisterScreen = ({ navigation}) => {
     return (
-        <View>
-            <Text></Text>
-        </View>
+        <KeyboardAvoidingView>
+            <StatusBar style="light" />
+
+        </KeyboardAvoidingView>
     )
 }
 
 export default RegisterScreen
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+    container: {}
+})
