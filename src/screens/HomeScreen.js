@@ -7,9 +7,10 @@ const HomeScreen = ({ navigation}) => {
   useLayoutEffect(() => {
     navigation.setOptions({
         headerBackTitle : "Signal",
-        headerStyle = {backgroundColor: "#fff"},
-        headerTitleStyle = {color: "black"},
-        headerTintColor : "black"
+        headerStyle : {backgroundColor: "#fff"},
+        headerTitleStyle :{color: "black"},
+        headerTintColor : "black",
+        
     })
   }, [input])
 
