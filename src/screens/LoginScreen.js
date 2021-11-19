@@ -23,8 +23,14 @@ const LoginScreen = () => {
                autoFocus type="email" 
                value={email} 
                onChangeText={(text) => setEmail(text)}/>
-               
-               <Input placeholder="Password" secureTextEntry type="password"/>
+
+               <Input 
+                placeholder="Password"
+                secureTextEntry 
+                type="password"
+                value={password} 
+                onChangeText={(text) => setPassword(text)}/>
+                
              </View>
         </View>
     )
