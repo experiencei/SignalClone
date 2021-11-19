@@ -27,7 +27,7 @@ const HomeScreen = ({ navigation}) => {
         headerRight : () => (
             <View style={{
                 flexDirection : "row",
-                justifyContent : "center",
+                justifyContent : "space-between",
                 width : 80,
                 marginRight :20}}>
                 <TouchableOpacity activeOpacity={0.5}>
