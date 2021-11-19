@@ -1,6 +1,7 @@
 import React, { useLayoutEffect, useState } from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 import { Button , Input , Image } from 'react-native-elements';
+import  Icon  from 'react-native-vector-icons/FontAwesome';
 import { db } from '../firebase/firebase';
 
 
