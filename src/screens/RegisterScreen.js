@@ -10,7 +10,9 @@ const RegisterScreen = ({ navigation}) => {
                 Create a Signal account
             </Text>
             <View style={styles.inputContainer}>
-
+                <Input 
+                    placeholder="Full Name"
+                />
             </View>
         </KeyboardAvoidingView>
     )
