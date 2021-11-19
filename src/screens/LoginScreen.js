@@ -13,6 +13,9 @@ const LoginScreen = () => {
                }}
               style={{width :200 , height : 200}}
              />
+             <View style={styles.inputContainer}>
+
+             </View>
         </View>
     )
 }
