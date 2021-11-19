@@ -31,7 +31,10 @@ const HomeScreen = ({ navigation}) => {
                 width : 80,
                 marginRight :20}}>
                 <TouchableOpacity activeOpacity={0.5}>
-                   <AntDesigner name="camera" size={24} color="black"/>
+                   <AntDesigner name="camerao" size={24} color="black"/>
+                </TouchableOpacity>
+                <TouchableOpacity activeOpacity={0.5}>
+                   <AntDesigner name="pencil" size={24} color="black"/>
                 </TouchableOpacity>
             </View>
         }
