@@ -10,6 +10,17 @@ const CustomListItem = () => {
                     uri : "https://cencup.com/wp-content/uploads/2019/07/avatar-placeholder.png"
                 }}
             />
+            <ListItem.Content>
+                 <ListItem.Title style={{ fontWeight: "800"}}>
+                     Youtube Chat
+                 </ListItem.Title>
+                 <ListItem.Subtitle 
+                     numberOfLines={1}
+                     ellipsizeMode="tail"
+                 >
+                      
+                 </ListItem.Subtitle>
+            </ListItem.Content>
         </ListItem>
     )
 }
