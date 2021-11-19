@@ -32,7 +32,8 @@ const LoginScreen = () => {
                 onChangeText={(text) => setPassword(text)}/>
                 
              </View>
-             <Button title="Login" />
+             <Button containerStyle={styles.button} title="Login" />
+             <Button containerStyle={styles.button} type="outline" title="Register" />
         </View>
     )
 }
@@ -41,5 +42,6 @@ export default LoginScreen
 
 const styles = StyleSheet.create({
     inputContainer : {},
+    button : {}
 })
 
